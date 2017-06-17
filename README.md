@@ -16,12 +16,14 @@
   
   2. create two tables: 
     - (1) list (_id, user_id, content, status)
+          format(ObjectId,ObjectId,String,boolean)
     - (2) user (_id, user_name, password)
+          format(ObjectId,String,String)
     
   3. Insert val:
     - No need to insert _id value, it will be created by mongodb automatically
-    - password need to be encryted by bcrypt, caused it will be examined
-    
+    - password must be encryted by bcrypt, or it will not pass the verification
+
   4. Port number: 27017
   
 # start mongod
