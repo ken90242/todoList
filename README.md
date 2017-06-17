@@ -1,6 +1,6 @@
-# web-texas
+# todoList
 
-> A Vue.js project
+> A Vue+koa+mongodb project
 
 ## Build Setup
 
