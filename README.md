@@ -1,7 +1,7 @@
 # todoList
 
 > A Vue+koa+mongodb project
-
+![image](https://github.com/ken90242/todoList/blob/master/demo.gif)
 > Learn from the tutorial: https://molunerfinn.com/Vue+Koa/
 
 > Original github work: https://github.com/Molunerfinn/vue-koa-demo
