@@ -2,19 +2,29 @@
 
 > A Vue+koa+mongodb project
 
+> Learn from the tutorial: https://molunerfinn.com/Vue+Koa/
+
+> Original github work: https://github.com/Molunerfinn/vue-koa-demo
+
 ## Pre-Setup
-```
-1. Install Mongodb
-2. Update the database
-  * create database: todolist
-  * create two tables: 
+``` bash
+# Install Mongodb
+
+# Update the database
+
+  1. create database: todolist
+  
+  2. create two tables: 
     - (1) list (_id, user_id, content, status)
     - (2) user (_id, user_name, password)
-  * Insert val:
+    
+  3. Insert val:
     - No need to insert _id value, it will be created by mongodb automatically
     - password need to be encryted by bcrypt, caused it will be examined
-  * Port number: 27017
-3. start mongod
+    
+  4. Port number: 27017
+  
+# start mongod
 ```
 
 ## Build Setup
