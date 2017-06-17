@@ -49,8 +49,8 @@ router.use("/api",jwt({secret: 'vue-koa-demo'}), api.routes()); //所有走/api/
 
 app.use(router.routes());
 
-// app.use(historyApiFallback())
-// app.use(serve(path.resolve('dist')));
+app.use(historyApiFallback())
+app.use(serve(path.resolve('dist')));
 
 app.on('error', function(err, ctx){
   console.log('server error', err);
