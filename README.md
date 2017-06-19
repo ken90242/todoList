@@ -15,10 +15,8 @@
   1. create database: todolist
   
   2. create two tables:
-    - (1) list(_id, user_id, content, status)
-          format(ObjectId, ObjectId, String, boolean)
-    - (2) user (_id, user_name, password)
-          format(ObjectId, String, String)
+    - (1) list(_id[ObjectId], user_id[ObjectId], content[String], status[boolean])
+    - (2) user (_id[ObjectId], user_name[String], password[String])
     
   3. Insert val:
     - No need to insert _id value, it will be created by mongodb automatically
